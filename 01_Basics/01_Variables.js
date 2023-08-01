@@ -11,5 +11,8 @@ accountPassword = '5555';
 accountCity= "goa";
 let accountState;
 
+/* Prefer Not to use var as there is no scope limit of this variable
+ */
+
 
 console.table([accountEmail,accountPassword,accountCity, accountState])
